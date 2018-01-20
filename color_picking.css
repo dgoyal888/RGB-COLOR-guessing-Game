@@ -1,0 +1,53 @@
+.square{
+	border-radius: 15%;
+	background: yellow;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background 0.5s;
+}
+body{
+	background: #232323;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	color: white;
+	margin: 0 0;
+	background-color: steelblue;
+	text-transform: uppercase;
+}
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+	width: 400px;
+}
+span{
+	text-transform: uppercase;
+}
+#strip{
+	height: 30px;
+	background-color: white;
+	text-align: center;
+}
+#space{
+	width: 20%;
+	display: inline-block;
+}
+button{
+	color: steelblue;
+	border: none;
+	background: none;
+	height: 100%;
+	font-size: inherit;
+	transition: all 0.5s;
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+button:hover{
+	background: steelblue;
+	color: white;
+}
